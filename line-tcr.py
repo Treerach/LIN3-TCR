@@ -15,7 +15,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Chivas Bot
+helpMessage =""" SelfBot by Ŧяәәяɘɔɥɘı
 [Id︎]
 [Mid]
 [Me︎]
@@ -92,7 +92,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"Chivas ",
+    "cName":" ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -470,23 +470,23 @@ def bot(op):
                         ki.sendText(msg.to,"It is not in the black list")
                         kk.sendText(msg.to,"It is not in the black list")
                         kc.sendText(msg.to,"It is not in the black list")
-               elif wait["contact"] == True:
-                    msg.contentType = 0
-                    cl.sendText(msg.to,msg.contentMetadata["mid"])
-                    if 'displayName' in msg.contentMetadata:
-                        contact = cl.getContact(msg.contentMetadata["mid"])
-                        try:
-                            cu = cl.channel.getCover(msg.contentMetadata["mid"])
-                        except:
-                            cu = ""
-                        cl.sendText(msg.to,"[displayName]:\n" + msg.contentMetadata["displayName"] + "\n[mid]:\n" + msg.contentMetadata["mid"] + "\n[statusMessage]:\n" + contact.statusMessage + "\n[pictureStatus]:\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n[coverURL]:\n" + str(cu))
-                    else:
-                        contact = cl.getContact(msg.contentMetadata["mid"])
-                        try:
-                            cu = cl.channel.getCover(msg.contentMetadata["mid"])
-                        except:
-                            cu = ""
-                        cl.sendText(msg.to,"[displayName]:\n" + contact.displayName + "\n[mid]:\n" + msg.contentMetadata["mid"] + "\n[statusMessage]:\n" + contact.statusMessage + "\n[pictureStatus]:\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n[coverURL]:\n" + str(cu))
+               #elif wait["contact"] == True:
+               #     msg.contentType = 0
+               #     cl.sendText(msg.to,msg.contentMetadata["mid"])
+               #     if 'displayName' in msg.contentMetadata:
+               #         contact = cl.getContact(msg.contentMetadata["mid"])
+               #         try:
+               #             cu = cl.channel.getCover(msg.contentMetadata["mid"])
+               #        except:
+               #             cu = ""
+               #         cl.sendText(msg.to,"[displayName]:\n" + msg.contentMetadata["displayName"] + "\n[mid]:\n" + msg.contentMetadata["mid"] + "\n[statusMessage]:\n" + contact.statusMessage + "\n[pictureStatus]:\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n[coverURL]:\n" + str(cu))
+               #     else:
+               #         contact = cl.getContact(msg.contentMetadata["mid"])
+               #         try:
+               #             cu = cl.channel.getCover(msg.contentMetadata["mid"])
+               #         except:
+               #             cu = ""
+               #         cl.sendText(msg.to,"[displayName]:\n" + contact.displayName + "\n[mid]:\n" + msg.contentMetadata["mid"] + "\n[statusMessage]:\n" + contact.statusMessage + "\n[pictureStatus]:\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n[coverURL]:\n" + str(cu))
             elif msg.contentType == 16:
                 if wait["timeline"] == True:
                     msg.contentType = 0
