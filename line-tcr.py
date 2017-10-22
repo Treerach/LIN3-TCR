@@ -15,59 +15,59 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" SelfBot by Ŧяәәяɘɔɥɘı
-[Id︎]
-[Mid]
-[Me︎]
-[TL︎:「Text」]
-[Mc 「mid」]
-[K on/off]
-[Join︎ on/off]
-[Gcancel:︎「Number of people」]
-[Group cancelalll︎]
-[Leave︎ on/off]
-[Add on/off]
-[Share on/off]
-[Message change:「text」]
-[Message check]
-[Confirm]
-[Jam on/off]
-[Change clock:「name」]
-[Up]
-[Cv join]
+helpMessage =""" ¤¤¤ Bot by Ŧяәәяɘɔɥɘı ¤¤¤ 
+¤ Id︎
+¤ Mid
+¤ Me︎
+¤ TL︎:「Text」
+¤ Mc 「mid」
+¤ K on/off
+¤ Join︎ on/off
+¤ Gcancel:︎「Number of people」
+¤ Group cancelalll︎
+¤ Leave︎ on/off
+¤ Add on/off
+¤ Share on/off
+¤ Message change:「text」
+¤ Message check
+¤ Confirm
+¤ Jam on/off
+¤ Change clock:「name」
+¤ Up
+¤ Cv join
 
-[*] Command in the groups [*]
+¤¤ Command in the groups ¤¤ 
 
-[Curl]
-[Ourl]
-[url]
-[url:「Group ID」]
-[Invite：「mid」]
-[Kick：「mid」]
-[Ginfo]
-[jointicket]
-[Cancel]
-[Gn 「group name」]
-[Nk 「name」]
+¤ Curl
+¤ Ourl
+¤ url
+¤ url:「Group ID」
+¤ Invite：「mid」
+¤ Kick：「mid」
+¤ Ginfo
+¤ jointicket
+¤ Cancel
+¤ Gn 「group name」
+¤ Nk 「name」]
 
-[*] Command kicker only [*]
+¤¤ Command kicker only ¤¤
 
-[Bye]
-[Kill ban]
-[Kill 「@」]
-[Ban 「@」] By Tag
-[Unban 「@」] By Tag
-[Ban︎] Share Contact
-[Unban︎] Share Contact
-[Banlist︎]
-[Cek ban]
-[Cv mid]
-[Cv ︎invite:「mid」]
-[Cv ︎rename:「name」]
-[Cv ︎gift]
-[Respo︎n]
-[Bot cancel]
-[Title:]
+¤ Bye
+¤ Kill ban
+¤ Kill 「@」
+¤ Ban 「@」
+¤ Unban 「@」
+¤ Ban︎ [Share Contact]
+¤ Unban︎ [Share Contact]
+¤ Banlist︎
+¤ Cek ban
+¤ Cv mid
+¤ Cv ︎invite:「mid」
+¤ Cv ︎rename:「name」
+¤ Cv ︎gift
+¤ Respo︎n
+¤ Bot cancel
+¤ Title:
 """
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
@@ -76,7 +76,7 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=["YOUR_MID_HERE"]
+admin=["#"]
 wait = {
     'contact':True,
     'autoJoin':True,
