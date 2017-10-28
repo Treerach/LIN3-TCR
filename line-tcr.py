@@ -25,12 +25,12 @@ helpMessage ="""Ŧяәәƅoŧ v2.2
 ¤ Mid
 ¤ Me
 ¤ Tl "text"
-¤ Bye bye = You left the group
+¤ Bye bye [You left the group]
 ¤ Cn "text" 
 ¤ Gift 
-¤ Mc "mid"  [convert mid to contact]
+¤ Mc "mid" [convert mid to contact]
 ¤ Groups
-¤ Like:on/off  [Auto like Post Timeline]
+¤ Like:on/off [Auto like Post Timeline]
 ¤ album 
 ¤ album merit "id"
 ¤ album remove "id" [tact:on]
@@ -40,7 +40,7 @@ helpMessage ="""Ŧяәәƅoŧ v2.2
 ¤ Clock:on/off
 ¤ Clock  "text"︎
 ¤ Update  [Update clock]
-¤ Update status [Update your profile status message]
+¤ Update status [Update your profile status]
 ¤ Comment confirm
 ¤ Comment "text"
 ¤ Comment bl add
